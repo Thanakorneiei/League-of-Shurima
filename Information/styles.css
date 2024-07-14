@@ -1,0 +1,115 @@
+a {
+    text-decoration: none; /* ลบเส้นใต้ของลิงก์ */
+    color: inherit; /* ทำให้ลิงก์มีสีเหมือนกับองค์ประกอบพ่อแม่ */
+    cursor: pointer;
+}
+
+.tab {
+    list-style-type: none; /* ลบจุด bullet ออก */
+    display: flex; /* ใช้ Flexbox เพื่อจัดรายการในแนวนอน */
+    justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
+    padding: 20;
+    margin: -8px; /* ลบ margin เริ่มต้น */
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+}
+
+.ntab {
+    margin-right: 30px; /* เพิ่มช่องว่างระหว่างรายการ */
+    color: white;
+    padding: 4px;
+}
+.ntab:hover {
+    color: rgb(236, 203, 142);
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+}
+
+.stab {
+    margin-right: auto;
+    color: white;
+    padding: 4px;
+}
+.stab:hover {
+    color: rgb(236, 203, 142);
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+}
+
+.ctab {
+    margin-right: 20px; /* เพิ่มช่องว่างระหว่างรายการ */
+    color: white;
+    padding: 4px;
+}
+
+.playlogo {
+    position: relative;
+    margin: 0; /* ไม่มีการเว้นระยะห่างขอบของ body */
+    padding: 0; /* ไม่มีการเว้นระยะห่างภายใน body */
+}
+.play {
+    position: absolute;
+    top: 47%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    padding: 10px; /* ขอบข้อความ */
+    text-align: center;
+    transition: color 0.3s ease;
+}
+.play:hover {
+    color: rgb(0, 170, 204);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-weight: 100;
+    color: white;
+}
+.Lcenter {
+    text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+    padding-right: 50%;
+}
+.Lcenter img {
+    float: right;
+    margin-right: -600px;
+    margin-top: -100px;
+    
+}
+.title {
+    font-size: 80px;
+}
+.desc {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -60px;
+}
+
+
+.head {
+    font-size: 80px;
+    font-style: italic;
+}
+.foot1 {
+    font-size: 20px;
+    margin-bottom: -100px;
+}
+.foot2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -70px;
+}
+.info {
+    background-color: rgb(9, 9, 42);
+}
